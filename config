@@ -1,6 +1,6 @@
 [DEFAULT]
-user=ocid1.user.oc1..aaaaaaaar4jmsffi2obpezcrq3s254ufwrxvws7mergre7mtk7ytdspmaqzq
+user=ocid1.user.oc1..aaaaaaaamtitq6lbocpcufaqibhddaathyxgj7oy2mipnva5c65ge65hveqq
 fingerprint=e6:16:94:93:29:53:0c:a4:ba:83:c2:3f:10:60:78:4a
-tenancy=ocid1.tenancy.oc1..aaaaaaaavcgchb5tgyyabfkpeluwjtt6jnjxs3urdfmslf4ou2gvoyjvrw2a
+tenancy=ocid1.tenancy.oc1..aaaaaaaachhsbdix5neqyctd3mo4yvscs6tsjzzpqparkted2ocqexxiwpga
 region=us-sanjose-1
 key_file=stevendy3186@gmail.com_2023-04-30T11_44_05.525Z.pem 
