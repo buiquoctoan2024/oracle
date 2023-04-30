@@ -6,11 +6,11 @@
 #subnetId = 'ocid1.subnet.oc1.us-sanjose-1.aaaaaaaa6cqv6rnuok7ljhciuybbkqq6ngouuuf5wkav4lrrxtju2uyse7vq'
 #ssh_authorized_keys = "ssh-rsa AAAA"
 
-availabilityDomain = "FrfT:US-SANJOSE-1-AD-1"
-displayName = 'instance-20230430-1851'
-compartmentId = 'ocid1.tenancy.oc1..aaaaaaaavcgchb5tgyyabfkpeluwjtt6jnjxs3urdfmslf4ou2gvoyjvrw2a'
+availabilityDomain = "pQil:US-SANJOSE-1-AD-1"
+displayName = 'instance-20230430-2215'
+compartmentId = 'ocid1.tenancy.oc1..aaaaaaaa5jyrrgzj62akzqjawvn3ujmtburfz56spsakhb23arjeqakrhmeq'
 imageId = "ocid1.image.oc1.us-sanjose-1.aaaaaaaanhnpcunug3vwxb5f4repc7i6woxfrbj4pew2zs3n4gdtxz723loa"
-subnetId = 'ocid1.subnet.oc1.us-sanjose-1.aaaaaaaangfdllh5lqat65jzjsm7vhcg6pneeofcz2y7lyuch6fgtyeivlqq'
+subnetId = 'ocid1.subnet.oc1.us-sanjose-1.aaaaaaaaf2osvib5xnfkgnxtcwt3imabecv3x5io7mnfssla24527xrcwufq'
 ssh_authorized_keys = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDLVNkGW0INHa/MYFF/bshqvFb0OkU8ZRjp0Ucy6cA4dZjZ2hPY30f4/Oiy3q+voiXd/h+2V88aVOLC5Hyw0BPWjwh+puEsEqIsuzuYCCclQ2RwZ5Na6YhN8l1oFLVoJn29RVRwp0Ge42khOZKEg42dsaCAYyfwO9Ha4IZJ0TZchIvnYuDCnEKiFKQhcdRh8udM5yWOM60YWf3G44UcLfTyUPWl38VFgfMw2u2seDTkDnRzzBtQSv6RqJKycgbSbI3z1SRXgND58PsAYo7/yQG0Gt/5FDdcLKy3G3iKGDNkq52UvbRaJGMdEbIB/a/6kfHIl0RgVx4J1lYa+7WwwrSz ssh-key-2022-05-18"
 
 
