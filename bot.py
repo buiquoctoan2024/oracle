@@ -114,22 +114,22 @@ while True:
 )
 to_try = 1
 while to_try <360:
-        try:
-        	to_launch_instance.launch_instance(instance_detail)
-        	message = 'VPS is created successfully! Watch video to get public ip address for your VPS'
-        	logging.info(message)
-        	sys.exit()
-        except oci.exceptions.ServiceError as e:
-            if e.status == 500:
-            	message = f"{e.message} Retry in {wait_s_for_retry}s"
-            else:
-            	message = f"{e} Retry in {wait_s_for_retry}s"
-            logging.info(message)
-            time.sleep(wait_s_for_retry)
-        except Exception as e:
-        	message = f"{e} Retry in {wait_s_for_retry}s"
-        	logging.info(message)
-        	time.sleep(wait_s_for_retry)
-            to_try=to_try+1
-        except KeyboardInterrupt:
-        	sys.exit()
+    try:
+        to_launch_instance.launch_instance(instance_detail)
+        message = 'VPS is created successfully! Watch video to get public ip address for your VPS'
+        logging.info(message)
+        sys.exit()
+    except oci.exceptions.ServiceError as e:
+        if e.status == 500:
+            message = f"{e.message} Retry in {wait_s_for_retry}s"
+        else:
+            message = f"{e} Retry in {wait_s_for_retry}s"
+        logging.info(message)
+        time.sleep(wait_s_for_retry)
+    except Exception as e:
+        message = f"{e} Retry in {wait_s_for_retry}s"
+        logging.info(message)
+        time.sleep(wait_s_for_retry)
+        to_try=to_try+1
+    except KeyboardInterrupt:
+        sys.exit()
