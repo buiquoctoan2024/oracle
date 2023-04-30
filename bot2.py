@@ -6,7 +6,7 @@
 #subnetId = 'ocid1.subnet.oc1.us-sanjose-1.aaaaaaaa6cqv6rnuok7ljhciuybbkqq6ngouuuf5wkav4lrrxtju2uyse7vq'
 #ssh_authorized_keys = "ssh-rsa AAAA"
 
-availabilityDomains = ["FrfT:US-SANJOSE-1-AD-1"]
+availabilityDomain = "FrfT:US-SANJOSE-1-AD-1"
 displayName = 'instance-20230430-1851'
 compartmentId = 'ocid1.tenancy.oc1..aaaaaaaavcgchb5tgyyabfkpeluwjtt6jnjxs3urdfmslf4ou2gvoyjvrw2a'
 imageId = "ocid1.image.oc1.us-sanjose-1.aaaaaaaanhnpcunug3vwxb5f4repc7i6woxfrbj4pew2zs3n4gdtxz723loa"
